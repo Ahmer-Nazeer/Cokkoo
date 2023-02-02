@@ -1,0 +1,33 @@
+.hero {
+  display: flex;
+  max-width: 1360px;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 4rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+.hero h1 {
+  font-size: 5rem;
+  color: white;
+}
+.swigle::before {
+  content: url("../../assets/Vector.png");
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  position: relative;
+  z-index: -8;
+  left: 2rem;
+  top: 1rem;
+}
+.hero-btn button {
+  margin-top: 2rem;
+  cursor: pointer;
+  border: none;
+  padding: 1rem 2rem;
+  box-shadow: 10px 10px 0px -3px #6f1ab6;
+  -webkit-box-shadow: 10px 10px 0px -3px #6f1ab6;
+  -moz-box-shadow: 10px 10px 0px -3px #6f1ab6;
+}
